@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import { useForm, FormProvider } from 'react-hook-form'
 import { AnimatePresence, motion } from 'framer-motion'
+import Image from 'next/image'
 import ProgressBar from './ProgressBar'
 import Step1 from './steps/Step1'
 import Step2 from './steps/Step2'
@@ -113,9 +114,7 @@ export default function SurveyLayout() {
             응답이 정상적으로 제출되었습니다.<br />
             laundrygo가 더 나은 서비스로 보답하겠습니다.
           </p>
-          <p className="mt-10 text-xs font-semibold tracking-[0.2em]" style={{ color: '#00C7AE' }}>
-            laundrygo
-          </p>
+          <Image src="/logo.png" alt="laundrygo" width={100} height={26} className="mt-10 opacity-80" />
         </motion.div>
       </div>
     )
@@ -131,9 +130,7 @@ export default function SurveyLayout() {
           style={{ boxShadow: '0 1px 0 #F9FAFB' }}
         >
           <div className="max-w-lg mx-auto">
-            <p className="text-xs font-semibold tracking-[0.2em]" style={{ color: '#00C7AE' }}>
-              laundrygo
-            </p>
+            <Image src="/logo.png" alt="laundrygo" width={120} height={32} priority />
             <ProgressBar currentStep={step} totalSteps={STEPS.length} stepLabels={STEPS} />
           </div>
         </header>
