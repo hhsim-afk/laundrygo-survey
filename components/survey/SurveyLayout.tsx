@@ -114,7 +114,7 @@ export default function SurveyLayout() {
             응답이 정상적으로 제출되었습니다.<br />
             laundrygo가 더 나은 서비스로 보답하겠습니다.
           </p>
-          <Image src="/logo.png" alt="laundrygo" width={100} height={26} className="mt-10 opacity-80" style={{ mixBlendMode: 'multiply' }} />
+          <Image src="/logo_V2.png" alt="laundrygo" width={100} height={26} className="mt-10 opacity-80" style={{ mixBlendMode: 'multiply' }} />
         </motion.div>
       </div>
     )
@@ -130,7 +130,7 @@ export default function SurveyLayout() {
           style={{ boxShadow: '0 1px 0 #F9FAFB' }}
         >
           <div className="max-w-lg mx-auto">
-            <Image src="/logo.png" alt="laundrygo" width={120} height={32} priority style={{ mixBlendMode: 'multiply' }} />
+            <Image src="/logo_V2.png" alt="laundrygo" width={120} height={32} priority style={{ mixBlendMode: 'multiply' }} />
             <ProgressBar currentStep={step} totalSteps={STEPS.length} stepLabels={STEPS} />
           </div>
         </header>
