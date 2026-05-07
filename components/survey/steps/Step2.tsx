@@ -9,7 +9,6 @@ const IMPORTANT_FACTORS = [
   { value: '가격 합리성',   emoji: '💰', desc: '합리적인 요금 체계' },
   { value: '비대면 편의성', emoji: '📱', desc: '앱으로 간편하게' },
   { value: '소재 안전성',   emoji: '🛡️', desc: '의류 손상 없는 케어' },
-  { value: '친환경',        emoji: '🌿', desc: '환경을 생각하는 세탁' },
 ]
 
 const ANXIETY_FACTORS = [
